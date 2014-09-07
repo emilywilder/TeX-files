@@ -1,0 +1,15 @@
+#\DeclareLyXModule{Extra Inverse Trig Functions}
+#DescriptionBegin
+#Add missing inverse trigonomentric functions
+#DescriptionEnd
+#Author: Emily Wilder <validitymaiden@gmail.com>
+
+Format 49
+
+Requires amsmath
+
+AddToPreamble
+	\DeclareMathOperator{\arcsec}{arcsec}
+	\DeclareMathOperator{\arccot}{arccot}
+	\DeclareMathOperator{\arccsc}{arccsc}
+EndPreamble
